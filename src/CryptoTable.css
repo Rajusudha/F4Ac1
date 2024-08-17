@@ -1,0 +1,76 @@
+/* CryptoTable.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #1A1A1C;
+  }
+  
+  .search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #1A1A1C;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1A1A1C;
+    color: white;
+    /* border: #464647; */
+    border-radius: 1px solid #464647;
+    cursor: pointer;
+    font-size: 16px;
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* table, th, td {
+    border: 1px solid #ddd;
+  } */
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    /* background-color: #f4f4f4; */
+    font-weight: bold;
+  }
+  
+  tr {
+    color: #f9f9f9;
+  }
+  
+  img {
+    max-width: 40px;
+    height: auto;
+    display: block;
+  }
+  tbody> tr>td{
+    border-bottom: 2px solid black;
+  }
+  div{
+    background: #1E1E1E;
+  }
+  
